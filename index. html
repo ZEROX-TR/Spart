@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>عرض صورة محلية</title>
+    <title>عرض صورة</title>
     <style>
         body {
             margin: 0;
@@ -12,7 +12,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #000;
+            background-color: #000; /* خلفية سوداء أنيقة لتبرز الصورة */
             overflow: hidden;
         }
         img {
@@ -24,8 +24,8 @@
 </head>
 <body>
 
-    <!-- تم وضع اسم الملف المحلي هنا مباشرة -->
-    <img src="myimage.jpg" alt="الصورة المحلية">
+    <!-- جيت هاب سيقرأ الصورة المرفوعة بجانبه مباشرة -->
+    <img src="myimage.jpg" alt="الصورة المرفوعة">
 
 </body>
 </html>
